@@ -49,11 +49,20 @@ export default {
 
 body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   min-width: 18rem;
+}
+
+html {
+  font-size: 18px;
+}
+@media (min-width: 44rem) {
+  html {
+    font-size: 20px;
+    margin: 0 2rem;
+  }
 }
 
 a {
@@ -90,7 +99,7 @@ a {
     border-radius: 0.4rem;
     flex: 0 0 auto;
     padding: 1rem 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .menu {
     justify-content: center;
