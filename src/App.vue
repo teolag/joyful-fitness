@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.svg" class="logo" />
+
+    <a href="/">
+      <img src="./assets/logo.svg" class="logo" alt="Joyful Fitness logotype" />
+    </a>
     
     <nav class="menu">
       <a href="#info" class="menu__link color--three">Min filosofi</a>
@@ -33,7 +36,7 @@
     <section class="section color--one" id="contact">
       <h2 class="section__heading">Kontakt</h2>
       
-      <a href="workout@joyful.se">workout@joyful.se</a>
+      <a href="mailto:fitness@joyful.se">fitness@joyful.se</a>
       
     </section>
   </div>
